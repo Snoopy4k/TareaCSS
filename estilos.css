@@ -1,0 +1,124 @@
+.fondo {
+    background-color: rgb(196, 165, 165);
+}
+
+.miTexto {
+    font-size: 30px;
+    font-family: Impact;
+    color: rgb(128, 0, 122);
+    padding: 1em;
+
+
+
+}
+
+.titulo{
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS';
+    margin: 0.5em;
+    font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+    width: fit-content;
+}
+
+#principal{
+    font-size: 4.5em;
+    border: 2px solid black;
+    width: 33vw;
+    margin: auto;
+    padding: 0.5em;
+    
+}
+
+#opvisual{
+    padding: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: space-around;
+    justify-content: center;
+
+}
+
+.cards-container{
+    background-color: black;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em; /*separacion de las lineas hr y el formato de lo visual*/
+    border: 2px solid   rebeccapurple;
+    border-radius: 15%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.visual{
+    width: 200px;
+     /*Sino uso flex.. padding: 7px; Flex separacion entre las fotos */
+    /*Sino uso flex margin: 0.5em; /* margen entre las fotos */
+    align-items: center;
+    border: 1.5px solid red;
+    padding: 7px;
+    border-radius: 15%;
+    
+
+}
+
+.visual:hover{
+    background-color: aqua;
+    transition: 2s;
+}
+
+.foto:hover{
+    background-color: aqua;
+    transition: 2s;
+}
+.logo:hover{
+    transition: 2s;
+    background-color: aqua;
+}
+
+
+
+body{
+    
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+h4{
+    background-color: brown;
+    font-size: 15px;
+    border: 0.5px solid red;
+    border-radius: 50%;
+    padding: 1em;
+    
+    font-family: 'Franklin Gothic Medium';
+}
+
+p{
+    font-family:  Tahoma;
+}
+
+
+.logo{
+    width: 100px;
+    border: 0.5px solid red;
+    border-radius: 15%;
+    padding: 7px;
+
+    
+}
+
+.foto{
+    width: 300px;
+    border: 0.5px solid red;
+    border-radius: 15%;
+    padding: 7px;
+
+}
+
